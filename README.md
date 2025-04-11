@@ -20,3 +20,19 @@ An AI-powered web scraper that extracts content from websites and uses open-sour
    ```bash
    python -m venv venv
    source venv/bin/activate  # On Windows: venv\Scripts\activate
+3. Set up your Groq API Key
+   1. Go to Groq Console
+   2. Create a new API key
+   3. Open parse.py and paste the key into the open_api_key variable:
+      ```bash
+      open_api_key = "your_api_key_here"
+4. Install Dependencies
+   ```bash
+   pip install -r requirements.txt
+5. Run the app
+   ```bash
+   streamlit run main.py
+6. Start Scraping!
+   
+A web interface will open in your browser where you can enter URLs and get summarized content powered by LLaMA3.
+Feel free to contribute or raise issues. Happy scraping! 🕷️🧠
