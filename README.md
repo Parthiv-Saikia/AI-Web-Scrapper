@@ -17,3 +17,6 @@ An AI-powered web scraper that extracts content from websites and uses open-sour
    git clone https://github.com/your-username/ai-web-scraper.git
    cd ai-web-scraper
 2. (Optional but recommended) Create and activate a virtual environment
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
