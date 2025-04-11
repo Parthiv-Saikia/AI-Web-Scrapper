@@ -10,6 +10,8 @@ An AI-powered web scraper that extracts content from websites and uses open-sour
 - [LangChain](https://www.langchain.com/) – For managing LLM workflows
 - [Groq API](https://console.groq.com/) – To run open-source LLMs like **LLaMA3-70B-8192**
 
+> **Note**: This project uses **ChromeDriver** (Version: 135.0.7049.84 (r1427262)) for Selenium. Please ensure Google Chrome is installed and `chromedriver` is available in your system's PATH or the project directory.
+
 ## 🛠️ How to Use
 
 1. **Clone the repository**
